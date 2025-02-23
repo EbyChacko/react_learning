@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>My Portfolio</h1>
+        <h1>30 Days React Learning Challenge</h1>
       </header>
     </div>
   );
