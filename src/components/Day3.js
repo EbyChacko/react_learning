@@ -1,62 +1,20 @@
 import { useState } from 'react';
 
-function SignupForm() {
-    const [formData, setFormData] = useState({
-        username: '',
-        email: '',
-        password: '',
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target; // Get input name and value
-        setFormData({
-            ...formData,
-            [name]: value, // Update corresponding key dynamically
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log('Form Data:', formData);
-    };
+export default function Day3() {
+    const [count, setCount] = useState(0);
+    const [name, setName] = useState('');
 
     return (
         <div className="wrapper">
-            <h4 className="days">Day 4</h4>
-            <form onSubmit={handleSubmit}>
-                <label>Username :
-                    <input
-                        type="text"
-                        name="username"
-                        placeholder="Username"
-                        value={formData.username}
-                        onChange={handleChange}
-                    />
-                </label><br></br>
-                <label>Email :
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder="Email"
-                        value={formData.email}
-                        onChange={handleChange}
-                    />
-                </label><br></br>
-                <label>Password :
-                    <input
-                        type="password"
-                        name="password"
-                        placeholder="Password"
-                        value={formData.password}
-                        onChange={handleChange}
-                    />
-                </label><br></br>
-                <button type="submit">Register</button>
-            </form>
-        </div>
-
-
+            <h4 className="days">Day 3</h4>
+            <h2>Counter</h2>
+            <p>Count : {count}</p>
+            <button onClick={() => setCount(count + 1)}>Increment</button>
+            <button onClick={() => setCount(count - 1)}>Decrement</button>
+            <button onClick={() => setCount(0)}>Reset</button><br></br>
+            <label>Enter your name : </label>
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+            <p className='day2Name'>Your Name : {name}</p>
+        </div>  
     );
 }
-
-export default SignupForm;

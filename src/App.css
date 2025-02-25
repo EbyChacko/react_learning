@@ -43,3 +43,7 @@
 .day2Name{
   text-transform: capitalize;
 }
+.error{
+  color: red;
+  font-size:x-small;
+}
