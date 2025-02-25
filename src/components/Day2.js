@@ -6,7 +6,7 @@ export default function Day2() {
 
     return (
         <div className="wrapper">
-            <h4 className="days">Day 2</h4>
+            <h4 className="days">Day 3</h4>
             <h2>Counter</h2>
             <p>Count : {count}</p>
             <button onClick={() => setCount(count + 1)}>Increment</button>
