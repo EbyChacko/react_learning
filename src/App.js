@@ -1,8 +1,9 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Day2 } from './components/Day2.js';
 import  Day3  from './components/Day3.js';
 import Day4 from './components/Day4.js';
+import Day5 from './components/Day5.js';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Day2 name="Eby Chacko" role="Full-Stack Developer" />
         <Day3 />
         <Day4 />
+        <Day5 />
       </header>
     </div>
   );
