@@ -4,6 +4,7 @@ import { Day2 } from './components/Day2.js';
 import  Day3  from './components/Day3.js';
 import Day4 from './components/Day4.js';
 import Day5 from './components/Day5.js';
+import Day6 from './components/Day6.js';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Day3 />
         <Day4 />
         <Day5 />
+        <Day6 />
       </header>
     </div>
   );
