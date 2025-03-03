@@ -1,4 +1,5 @@
 
+import React from 'react';
 import './App.css';
 import { Day2 } from './components/Day2.js';
 import  Day3  from './components/Day3.js';
@@ -16,7 +17,6 @@ function App() {
         <Day4 />
         <Day5 />
         <Day6 />
-        
       </header>
     </div>
   );
