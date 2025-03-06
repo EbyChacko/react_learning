@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 const Day11 = () => {
   return (
     <div className='wrapper'>
+        <h4 className="days">Day 11</h4>
+        <h2>Framer motion Animation</h2>
     <div className="day11Container">
       <motion.h1
         initial={{ opacity: 0, y: -50 }}
