@@ -51,3 +51,22 @@
   padding: 30px;
   border-radius: 20px;
 }
+
+.day11Container {
+  text-align: center;
+  padding: 5rem;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: white;
+  height: 120px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 18px;
+  background: #4ecca3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #16213e;
+}
