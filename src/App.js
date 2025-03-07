@@ -8,6 +8,7 @@ import Day5 from './components/Day5.js';
 import Day6 from './components/Day6.js';
 import Day10 from './components/Day10.js';
 import Day11 from './components/Day11.js';
+import Day12 from './components/Day12.js';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Day6 />
         <Day10 />
         <Day11 />
+        <Day12 />
       </header>
     </div>
   );

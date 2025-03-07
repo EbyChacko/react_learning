@@ -55,7 +55,7 @@
 .day11Container {
   text-align: center;
   padding: 5rem;
-  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  background: linear-gradient(135deg, #150e1d, #36163e);
   color: white;
   height: 120px;
 }
@@ -69,4 +69,12 @@
   border-radius: 5px;
   cursor: pointer;
   color: #16213e;
+}
+
+.Day12Post {
+  background: #322c48;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
 }
