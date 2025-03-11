@@ -1,3 +1,6 @@
+import React from 'react';
+import FetchData from './Day13FetchData';
+
 const Day13 = () => {
     return (
       <div className='wrapper'>
@@ -7,4 +10,6 @@ const Day13 = () => {
       </div>
     );
   };
+
+export default Day13;
   
