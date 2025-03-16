@@ -20,7 +20,7 @@ class Day17 extends Component {
     return (
       <div className="wrapper">
         <h4 className="days">Day 17</h4>
-        <h2>Counter App</h2>
+        <h2>Counter App using Class Component</h2>
         <p>{this.state.count}</p>
         <button onClick={this.increment}>Increment</button>
         <button onClick={this.decrement}>Decrement</button>
