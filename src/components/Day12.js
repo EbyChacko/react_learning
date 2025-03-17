@@ -41,7 +41,7 @@ const useFetch = (url) => {
 
 const Day12 = () => {
     const { data, loading, error } = useFetch(
-        'https://jsonplaceholder.typicode.com/posts'
+        'https://jsonplaceholder.typicode.com/users'
     );
 
     if (loading) return <p>Loading...</p>;
@@ -54,8 +54,8 @@ const Day12 = () => {
             <hr></hr>
             {data.map((post) => (
                 <div key={post.id} className='Day12Post'>
-                    <h3>{post.title}</h3>
-                    <p>{post.body}</p>
+                    <h3>Name : {post.name}</h3>
+                    <p>Email : {post.email}</p>
                     <br></br>
                 </div>
             ))}
